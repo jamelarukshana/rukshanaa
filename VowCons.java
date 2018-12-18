@@ -5,7 +5,7 @@ public static void main(String args[])
 {
 int ltr;
 Scanner sc=new Scanner(System.in);
-ltr=sc.nextInt();
+ltr=sc.next().charAt(0);
   System.out.println(+ltr);
 if(ltr='A'||ltr='E'||ltr='I'||ltr='O'||ltr='U')
   System.out.println("vowels");
