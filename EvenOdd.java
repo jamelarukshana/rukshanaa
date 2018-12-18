@@ -3,13 +3,13 @@ class EvenOdd
 {
 public static void main(String args[])
 {
-int value;
+int val;
 Scanner sc=new Scanner(System.in);
-value=sc.nextInt();
-System.out.println(+value);
+val=sc.nextInt();
+System.out.println(+val);
 if(value%2==0)
   System.out.println("Even");
-if(value%2==1)
+if(val%2==1)
   System.out.println("Odd");
 else
   System.out.println("invalid");
