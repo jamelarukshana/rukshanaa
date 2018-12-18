@@ -12,6 +12,6 @@ if(value%2==0)
 if(value%2==1)
   System.out.println("Odd");
 else
-  System.out.pintln("invalid");
+  System.out.println("invalid");
 }
 }
