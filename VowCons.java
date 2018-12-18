@@ -1,4 +1,6 @@
-import java.util.Scanner;
+import java.io.*;
+import java.util.*;
+import java.lang.*;
 class VowCons
 {
 public static void main(String args[])
