@@ -3,16 +3,16 @@ class PositiveNegative
 {
 public static voidmain(String args[])
 {
-int num;
+int number;
 Scanner sc=new Scanner(System.in);
-num=sc.nextInt();
-System.out.println("Output:"+num);
+number=sc.nextInt();
+System.out.println("Output:"+number);
 if(num==0)
   System.out.println("Zero");
-if(num>0)
-  System.out.println("Positive");
+if(num<0)
+  System.out.println("-ve");
 else
-  System.out.println("Negative");
+  System.out.println("+ve");
   
 }
 }
