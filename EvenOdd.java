@@ -7,7 +7,7 @@ int val;
 Scanner sc=new Scanner(System.in);
 val=sc.nextInt();
 System.out.println(+val);
-if(value%2==0)
+if(val%2==0)
   System.out.println("Even");
 if(val%2==1)
   System.out.println("Odd");
