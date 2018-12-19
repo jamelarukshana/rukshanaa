@@ -8,9 +8,9 @@ int year;
 Scanner sc=new Scanner(System.in);
 year=sc.nextInt();
 if(year%4==0)
-  System.out.println("Yes");
+  System.out.println("yes");
 else
-  System.out.println("No");
+  System.out.println("no");
  
 }
 }
